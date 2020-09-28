@@ -1,0 +1,44 @@
+header
+{
+    line-height: 60%;
+}
+
+h1
+{
+    font-size: 60px;
+}
+
+pre
+{
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    font-weight: 700;
+    font-style: oblique;
+}
+
+body
+{
+    text-align: center;
+    background: rgb(240,238,195);
+    background: radial-gradient(circle, rgba(240,238,195,1) 0%, rgba(255,107,1,1) 100%);
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+img
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+
+    mix-blend-mode: difference;
+}
+
+.aux
+{
+    padding: 15px;
+}
