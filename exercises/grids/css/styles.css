@@ -33,9 +33,13 @@
     margin-bottom: 1rem;
 }
 
-.using-inline-bloack
+.using-inline-block li
 {
     display: inline-block;
+}
+
+.using-inline-block
+{
     font-size: 0;
 }
 
