@@ -1,0 +1,138 @@
+body
+{
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+header
+{
+    text-align: center;
+    color: white;
+    padding: 98px 0 160px 0;
+    background-image: url(hero.jpg);
+    background-size: cover; 
+
+    background-position: 50% 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h1
+{
+    font-size: 60pt;
+    margin-bottom: 0;
+}
+
+h2
+{
+    margin-top: -3px;
+    font-size: 22.5pt;
+}
+
+.column-container
+{
+    width: 960px;
+    margin: auto;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 2rem; 
+}
+
+.first
+{
+    padding-top: 2.6rem;
+    padding-bottom: 2rem;
+    background-color: rgb(253, 211, 204);
+
+}
+
+p{
+    font-size:17.8px; 
+    line-height: 1.6rem;
+}
+
+.image1
+{
+    float: right;
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+    margin-left: 2.63rem;
+    margin-bottom: 2rem;
+}
+
+.second
+{
+    padding-top: 2.6rem;
+    padding-bottom: 2.3rem;
+    background-color: rgb(174, 220, 221);
+}
+
+ul
+{
+    padding: 0;
+    font-size: 0;
+}
+
+li
+{
+    list-style-type: none;
+    display: inline-block;
+    width: 50%;
+    padding-bottom: 24px;
+}
+
+.photo-title
+{
+    font-weight: bold;
+    font-size: 15pt;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.photo-caption
+{
+    width: 365px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.image2
+{
+    width: 200px;
+    height: 150px;
+    float: left;
+    margin-right: 12px;
+}
+
+.text
+{
+    text-align: center;
+    font-size: 19pt;
+    line-height: 1.44;
+}
+
+.narrow-container
+{
+    width: 712px;
+    margin: auto;
+}
+
+.third
+{
+    padding-top: 2.7rem;
+    padding-bottom: 5rem;
+    background-color: rgb(218, 255, 203);
+}
+
+footer
+{
+    padding-top: 2.3rem;
+    font-size: 13.5pt;
+    padding-bottom: 2.3rem;
+    background-color: rgb(225, 199, 255);
+}
