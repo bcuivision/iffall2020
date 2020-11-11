@@ -1,0 +1,124 @@
+html
+{
+    background: #d6595b;
+    background: linear-gradient(9deg, #d6595b 0%, #ffb8b9 100%);
+
+}
+
+body
+{
+    max-width: 960px;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+
+    border-left: 10px solid rgb(177, 231, 95);
+    border-right: 10px solid rgb(177, 231, 95);
+
+    background: rgba(255, 255, 255,.85);
+}
+
+h1, #description, #time
+{
+    text-align: center;
+}
+
+#description
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#time
+{
+    display: block;
+    font-size: 1.45rem;
+
+    word-spacing: 10px;
+
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h1
+{
+    padding-top: 6%;
+    margin-top: 0;
+}
+
+img
+{
+    display: block;
+    max-width: 95%;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.container
+{
+    margin-top: 35px;
+}
+
+.container section
+{
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li
+{
+    line-height: 1.5rem;
+}
+
+footer
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    font-size: 9pt;
+}
+
+a:visited
+{
+    color: #0645AD;
+}
+
+.number
+{
+    font-weight: 700;
+    font-size: 1.45rem;
+    letter-spacing: 2px;
+}
+
+@media(min-width: 640px)
+{
+    .container
+    {
+        display: flex;
+    }
+
+    .container section
+    {
+        width: 50%;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    img
+    {
+        max-width: 80%;
+    }
+}
