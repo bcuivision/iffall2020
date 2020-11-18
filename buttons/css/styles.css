@@ -1,0 +1,708 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+     font-size: 30px;
+     margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+
+    position: relative;
+}
+
+
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+a#btn_coke
+{
+    margin: 40px;
+
+    position: relative;
+
+    display: inline-block;
+    font-family: 'Lobster', cursive;
+
+    color: white;
+    background-color: rgb(254, 0, 6);
+
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-decoration: none;
+
+    transition: all .2s;
+}
+
+a#btn_coke:hover
+{
+    background-color: rgb(224, 2, 6);
+}
+
+a#btn_coke:active
+{
+    margin: -20px;
+    width: 300px;
+    height: 300px;
+    border-radius: 0%;
+    transition: .5s;
+}
+
+a#btn_coke span
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    width: 100%;
+    text-align: center;
+}
+
+a#btn_coke:hover span
+{
+    text-shadow: 0 0 15px #000000;
+}
+
+a#btn_apple
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 8rem;
+    color: #555555;
+}
+
+a#btn_apple:hover
+{
+    color: #888888;
+}
+
+a#btn_apple:active
+{   
+    font-size: 8rem;
+    top: 0;
+    color: white;
+
+    transition: .2s;
+}
+
+a#btn_ibm
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+
+    font-size: 5rem;
+    font-weight: 700;
+
+    color: #006699;
+}
+
+a#btn_ibm:hover
+{
+    color: #0090d8;
+    padding: 20px;
+
+    text-shadow: 0 0 8px yellow;
+}
+
+a#btn_ibm:active
+{
+    border: 5px solid  #006699;
+}
+
+a#btn_nike
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_nike img
+{
+    width: 200px;
+}
+
+a#btn_nike div
+{
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+    visibility: hidden;
+    display: none;
+}
+
+a#btn_nike:hover div
+{
+    visibility: visible;
+    display: block;
+}
+
+a#btn_nike:active img
+{
+    transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+a#btn_ideo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_ideo img
+{
+    width: 300px;
+}
+
+a#btn_ideo span
+{
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+a#btn_ideo div
+{
+    width: 200px;
+    margin-left: 19%;
+}
+
+a#btn_ideo div span
+{
+    margin-right: 35px;
+}
+
+a#btn_ideo div #i, a#btn_ideo div #e
+{
+    color: rgb(114, 228, 230);
+}
+
+a#btn_ideo div #d, a#btn_ideo div #o
+{
+    color: rgb(248, 85, 56);
+}
+
+a#btn_ideo:hover div #i, a#btn_ideo:hover div #e
+{
+    color: rgb(248, 85, 56);
+}
+
+a#btn_ideo:hover div #d, a#btn_ideo:hover div #o
+{
+    color: rgb(114, 228, 230);
+}
+
+a#btn_facebook
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #3b5998;
+    font-size: 9rem;
+}
+
+a#btn_facebook:hover i
+{
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+
+a#btn_instagram
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    font-size: 7rem;
+}
+
+
+a#btn_instagram:hover i
+{
+    color: white;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+
+    font-size: 30.5rem;
+    transition: .3s;
+}
+
+a#btn_oldnavy
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+    background-color: rgb(252, 48, 48);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+a#btn_oldnavy:hover
+{
+    background-color: #2F364A;
+    transition: .2s;
+}
+
+a#btn_npr
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    width: 165px;
+
+    background-color: black;
+}
+
+a#btn_npr span
+{    letter-spacing: .5rem;
+    margin-left: 5px;
+}
+
+.block
+{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    margin: 0;
+    z-index: -1;
+    top: 0;
+    visibility: hidden;
+}
+
+.red
+{
+    background-color: #f15b1c;
+}
+
+.black
+{
+    left: 55px;
+    background-color: #00000F;
+}
+
+.blue
+{
+    left: 110px;
+    background-color: #4c85c5;
+}
+
+a#btn_npr:hover .block
+{
+    visibility: visible;
+}
+
+a#btn_newyorker
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+a#btn_newyorker:hover .ny
+{
+    color: rgb(255, 148, 17);
+
+}
+
+a#btn_samsung
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: #12279e;
+    font-size: 2.2rem;
+    font-weight: 700;
+
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+a#btn_samsung:hover
+{
+    color: white;
+    background-color: #12279e;
+    transition: .2s;
+}
+
+a#btn_mk
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: black;
+    font-size: 3.5rem;
+    font-weight: 700;
+
+    border: 7px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+a#btn_mk span
+{
+    margin-left: -18px;
+}
+
+a#btn_mk:hover
+{
+    color: white;
+    background-color: black;
+    transition: .3s;
+}
+
+a#btn_moo
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 700;
+
+    color:#489258;
+    background-color: transparent;
+}
+
+a#btn_moo:hover span
+{
+    margin-right: -38px;
+    transition: .3s;
+}
+
+a#btn_fitbit
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_fitbit img
+{
+    width: 100px;
+    height: 100px;
+}
+
+a#btn_fitbit span
+{
+    display: none;
+    color: black;
+    font-size: 2rem;
+}
+
+a#btn_fitbit:hover span
+{
+    display: inline-block;
+    transition: .3s;
+}
+
+a#btn_fitbit:hover img
+{
+    filter: drop-shadow(2px 2px 2px rgb(3, 255, 221));
+    transition: .2s;
+}
+
+a#btn_stjude
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_stjude img
+{
+    width: 200px;
+}
+
+a#btn_stjude:hover img
+{
+    width: 300px;
+    transition: .4s;
+}
+
+a#btn_lyft
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_lyft img
+{
+    width: 275px;
+}
+
+a#btn_lyft:hover img
+{
+    filter: drop-shadow(3px 3px 3px rgb(56, 1, 19));
+    width: 300px;
+    transition: .5s;
+}
+
+a#btn_tesla
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_tesla img
+{
+    width: 175px;
+}
+
+a#btn_tesla:hover img
+{
+    filter: drop-shadow(3px 3px 3px rgb(255, 3, 87));
+    width: 185px;
+    transition: .5s;
+}
+
+a#btn_nbc
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_nbc img
+{
+    width: 150px;
+}
+
+a#btn_nbc:hover img
+{
+    filter: drop-shadow(3px 3px 3px rgb(56, 1, 19));
+    transform: rotateZ(360deg);
+    width: 200px;
+    transition: .9s;
+}
+
+a#btn_hd
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+}
+
+a#btn_hd img
+{
+    width: 150px;
+}
+
+a#btn_hd:hover img
+{
+    filter: drop-shadow(3px 3px 3px rgb(56, 1, 19));
+    transform: rotateY(360deg);
+    width: 200px;
+    transition: .9s;
+}
+
+a#btn_army
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    filter: drop-shadow(3px 3px 3px yellow);
+    font-size: 4rem;
+    text-decoration: none;
+}
+
+a#btn_army div
+{
+    font-size: 2rem;
+}
+
+
+
+a#btn_army:hover
+{
+    color: yellow;
+    filter: drop-shadow(3px 3px 3px black);
+    font-size: 5rem;
+    transition: .9s;
+}
