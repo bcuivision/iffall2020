@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+
+        <title>Tom & Jerry</title>
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Luckiest+Guy&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Permanent+Marker&display=swap" rel="stylesheet">
+
+
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+        <!-- This is where I'm including the jQuery library into the page. Add this on every page of your site -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- This is my own jQuery. You should create a separate file and link to it as above. -->
+		<script>
+
+			$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+				$("#menu").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+					$("#drawer").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					console.log("Toggled the class!");	/* Logged a note to the console so I could see that the function ran */
+				});
+
+			});
+
+		</script>
+
+        <link href="css/styles.css" rel="stylesheet">
+        <link href="css/history.css" rel="stylesheet">
+    </head>
+    
+	<body>
+
+        <header>
+            <nav>
+                <button class="controls" id="menu"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <img id="text-logo" src="images/text-logo.png" alt="tom&jerry">
+
+                <ul id="drawer">
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+
+                    <li>
+                        <a style="color:#fde988; filter: drop-shadow(0 0 0.5rem #eeeeeec0);" href="history.html">HISTORY</a>
+                    </li>
+
+                    <li>
+                        <a href="media.html">MEDIA</a>
+                    </li>
+
+                    <li>
+                        <a href="people.html">PEOPLE</a>
+                    </li>
+
+                    <li>
+                        <a href="sources.html">SOURCES</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="timeline">
+
+            <div class="container left">
+                <div class="content">
+                    <h2>1st Hanna-Barbera Era</h2>
+                    <div>
+                        <p>In June 1937, animator and storyman <a class="nameLink" href="people.html">Joseph Barbera</a> began to work for MGM. With fellow MGM animator and director <a href ="people.html" class="nameLink">William Hanna</a>, Barbera pitched the concept of two "equal characters who were always in conflict with each other". An early thought involved a fox and a dog before they settled on a cat and mouse.</p>
+
+                        <p>The first short, <em>Puss Gets the Boot</em>, features a cat named Jasper and an unnamed mouse, named Jinx in pre-production, and an African American housemaid named Mammy Two Shoes. It was released onto the theatre circuit on February 10, 1940 and the pair, having been advised by management not to produce any more, focused on other cartoons. However, when Texas businesswoman Bessa Short sent a letter to MGM asking whether more cat and mouse shorts would be produced, which helped convince management to commission a series. Later, a studio contest held to rename both characters was won by animator John Carr, who suggested Tom the cat and Jerry the mouse after the Christmastime drink.</p>
+                        
+                        <p>After MGM gave the green-light for Hanna and Barbera to continue, the studio entered production on the second Tom and Jerry cartoon, <em>The Midnight Snack</em> (1941). The pair would continue to work on the series for the next fifteen years of their career. </p>
+                        
+                        <p>Hanna and Barbera produced 114 cartoons for MGM, thirteen of which were nominated for an Academy Award for Best Short Subject and seven went on to win, breaking the winning streak held by Walt Disney's studio in the category. <em>Tom and Jerry</em> won more Academy Awards than any other character-based theatrical animated series.</p>
+                        
+                        <p>The rise in television in the 1950s caused problems for the MGM animation studio, leading to budget cuts on Tom and Jerry cartoons due to decreased revenue from theatrical screenings. Additionally, the studio found that re-releases of older cartoons were earning as much as new ones, resulting in the executive decision to cease production on Tom and Jerry and later the animation studio on May 15, 1957. The final cartoon produced by Hanna and Barbera, <em>Tot Watchers</em>, was released on August 1, 1958. The pair were decided to leave and went on to focus on their own production company Hanna-Barbera Productions.</p>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2>Gene Deitch Era</h2>
+
+                    <div>
+                        <p>In 1961, MGM revived the Tom and Jerry franchise, and contracted European animation studio Rembrandt Films to produce 13 Tom and Jerry shorts in Prague, Czechoslovakia. All were directed by <a class="nameLink" href="people.html">Gene Deitch</a>. Deitch himself wrote most of the cartoons, with occasional assistance from Larz Bourne and Eli Bauer.</p>
+
+                        <p>Since the team produced their cartoons on a tighter budget of $10,000, the resulting films were considered surrealist in nature. The animation was limited and jerky in movement, compared to the more fluid Hanna-Barbera shorts. Background art was done in a more simplistic, angular, Art Deco-esque style. The soundtracks featured sparse and echoic electronic music, futuristic sound effects, heavy reverb, and dialogue that was mumbled rather than spoken. According to Jen Nessel of The New York Times, "The Czech style had nothing in common with these gag-driven cartoons."</p>
+
+                        <p>After the 13 shorts were completed, Joe Vogel, the head of production, was fired from MGM. Vogel had approved of Deitch and his team's work, but MGM decided not to renew their contract after Vogel's departure. The final of the 13 shorts, Carmen Get It!, was released on December 21, 1962.</p>
+
+                        <p>Deitch's shorts were commercial successes. In 1961, the Tom and Jerry series became the highest-grossing animated short film series of that time, dethroning Looney Tunes, which had held the position for 16 years; this success was repeated once more in 1962. However, unlike the Hanna-Barbera shorts, none of Deitch's films were nominated for nor did they win an Academy Award. In retrospect, these shorts are often considered the worst of the Tom and Jerry theatrical output. Deitch stated that due to his team's inexperience as well as their low budget, he "hardly had a chance to succeed", and "well understand[s] the negative reactions" to his shorts. Despite the criticism, Deitch's Tom and Jerry shorts were considered personal favorites by some fans due to their quirky and surreal nature. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h2>Chuck Jones Era</h2>
+                    <div>
+                        <p>After the last of the Deitch cartoons were released, <a class="nameLink" href="people.html">Chuck Jones</a>, who had been fired from his 30-plus year tenure at Warner Bros. Cartoons, started his own animation studio, Sib Tower 12 Productions (later renamed MGM Animation/Visual Arts), with partner Les Goldman. Beginning in 1963, Jones and Goldman went on to produce 34 more Tom and Jerry shorts, all of which carried Jones' distinctive style (and a slight psychedelic influence).</p>
+
+                        <p>Jones had trouble adapting his style to Tom and Jerry's brand of humor, and a number of the cartoons favored full animation, personality and style over storyline. The characters underwent a slight change of appearance: Tom was given thicker eyebrows (resembling Jones' Grinch, Count Blood Count or Wile E. Coyote), a less complex look (including the color of his fur becoming gray), sharper ears, longer tail and furrier cheeks (resembling Jones' Claude Cat or Sylvester), while Jerry was given larger eyes and ears, a lighter brown color, and a sweeter, Porky Pig-like expression.</p>
+
+                        <p>Some of Jones' Tom and Jerry cartoons are reminiscent of his work with Wile E. Coyote and the Road Runner, included the uses of blackout gags and gags involving characters falling from high places. Jones co-directed the majority of the shorts with layout artist Maurice Noble. The remaining shorts were directed by Abe Levitow and Ben Washam, with Tom Ray directing two shorts built around footage from earlier Tom and Jerry cartoons directed by Hanna and Barbera, and Jim Pabian directed a short with Maurice Noble. Various vocal characteristics were made by Mel Blanc, June Foray and even Jones himself. These shorts contain a memorable opening theme, in which Tom first replaces the MGM lion, then is trapped inside the "O" of his name.</p>
+
+                        <p>Though Jones's shorts were generally considered an improvement over Deitch's, they nevertheless had varying degrees of critical success. MGM ceased production of Tom and Jerry shorts in 1967, by which time Jones had moved on to television specials and the feature film The Phantom Tollbooth. The shorts were released on DVD in 2009 in "Tom and Jerry: The Chuck Jones Collection".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2>Tom and Jerry hit television</h2>
+                    <div>
+                        <p>Beginning in 1965, the Hanna and Barbera Tom and Jerry cartoons began to appear on television in heavily edited versions. The Jones team was required to take the cartoons featuring Mammy Two Shoes and remove her by pasting over the scenes featuring her with new scenes. Most of the time, she was replaced with a similarly fat white Irish woman; occasionally, as in Saturday Evening Puss, a thin white teenager took her place instead, with both characters voiced by June Foray. However, recent telecasts on Cartoon Network and Boomerang retain Mammy with new voiceover work performed by Thea Vidale to remove the stereotypical black jargon featured on the original cartoon soundtracks. The standard Tom and Jerry opening titles were removed as well. Instead of the roaring MGM Lion sequence, an opening sequence featuring different clips of the cartoons was used instead. The title cards were also changed. A pink title card with the name written in white font was used instead.</p>
+
+                        <p>Debuting on CBS' Saturday morning schedule on September 25, 1965, Tom and Jerry moved to CBS Sundays two years later and remained there until September 17, 1972.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h2>2nd Hanna-Barbera Era</h2>
+
+                    <div>
+                        <p>In 1975, Tom and Jerry were reunited with Hanna and Barbera, who produced The Tom and Jerry Show for Saturday mornings. These 48 seven-minute cartoon shorts were paired with Grape Ape and Mumbly cartoons, to create The Tom and Jerry/Grape Ape Show, The Tom and Jerry/Grape Ape/Mumbly Show, and The Tom and Jerry/Mumbly Show, all of which initially ran on ABC Saturday mornings between September 6, 1975, and September 3, 1977. In these cartoons, Tom and Jerry (now with a red bow tie), who had been enemies during their formative years, became nonviolent pals who went on adventures together, as Hanna-Barbera had to meet the stringent rules against violence for children's TV. This format has not been used in newer Tom and Jerry entrees.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2>Filmation Era</h2>
+
+                    <div>
+                        <p>Filmation Studios (in association with MGM Television) also tried their hands at producing a Tom and Jerry TV series. Their version, The Tom and Jerry Comedy Show, debuted in 1980, and also featured new cartoons starring Droopy, Spike (from Tom and Jerry, and the same version also used in Droopy), Slick Wolf, and Barney Bear, not seen since the original MGM shorts. The Filmation Tom and Jerry cartoons were noticeably different from Hanna-Barbera's efforts, as they returned Tom and Jerry to the original chase formula, with a somewhat more "slapstick" humor format. This incarnation, much like the 1975 version, was not as well received by audiences as the originals, and lasted on CBS Saturday mornings from September 6, 1980, to September 4, 1982.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tom and Jerry's new owners
+                In 1986, MGM was purchased by WTBS founder Ted Turner. Turner sold the company a short while later, but retained MGM's pre-1986 film library, thus Tom and Jerry became the property of Turner Entertainment Co. (where the rights stand today via Warner Bros.), and have in subsequent years appeared on Turner-run stations, such as TBS, TNT, Cartoon Network, The WB, Boomerang, and Turner Classic Movies. -->
+
+            <div class="container left">
+                <div class="content">
+                    <h2>3rd Hanna-Barbera Era</h2>
+
+                    <div>
+                        <p>One of the biggest trends for Saturday morning television in the 1980s and 1990s was the "babyfication" (child versions) of classic cartoon stars, and on March 2, 1990, <em>Tom & Jerry Kids</em>, co-produced by Turner Entertainment Co. and Hanna-Barbera Productions (which would be sold to Turner in 1991), debuted on Fox Kids, and also aired for a few years on British children's block, CBBC. It featured a youthful version of the famous cat-and-mouse duo chasing each other. As with the 1975 H-B series, Jerry wears his red bowtie, while Tom now wears a red cap. Spike and his son Tyke (who now had talking dialogue), and Droopy and his son Dripple, appeared in back-up segments for the show, which ran until November 18, 1994.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2>"Tom and Jerry: The Mansion Cat"</h2>
+
+                    <div>
+                        <p>In 2001, a new television special titled <em>Tom and Jerry: The Mansion Cat</em> premiered on Boomerang. It featured Joe Barbera (who was also a creative consultant) as the voice of Tom's owner, whose face is never seen. In this cartoon, Jerry, housed in a habitrail, is as much of a house pet as Tom is, and their owner has to remind Tom to not "blame everything on the mouse".</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container left">
+                <div class="content">
+                    <h2>"The Karate Guard"</h2>
+
+                    <div>
+                        <p>In 2005, a new Tom and Jerry theatrical short, titled <em>The Karate Guard</em>, which had been written and directed by Barbera and Spike Brandt, storyboarded by Joseph Barbera and Iwao Takamoto and produced by Joseph Barbera, Spike Brandt, and Tony Cervone premiered in Los Angeles cinemas on September 27, 2005. As part of the celebration of Tom and Jerry's sixty-fifth anniversary, this marked Barbera's first return as a writer, director and storyboard artist on the series since his and Hanna's original MGM cartoon shorts, and last overall; he would die shortly after production ended.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container right">
+                <div class="content">
+                    <h2>Warner Bros. Era</h2>
+
+                    <div>
+                        <p>During the first half of 2006, a new series called Tom and Jerry Tales was produced at Warner Bros. Animation. The show then came to the UK in February 2006 on Boomerang, and it went to the U.S. on Kids' WB on The CW. Tales is the first Tom and Jerry TV series that utilizes the original style of the classic shorts, along with the slapstick. The series was canceled in 2008, shortly before the Kids' WB block shut down.</p>
+
+                        <p>Cartoon Network, which began rerunning the Tom and Jerry Tales in January 2012, subsequently aired a second series consisting of two 11-minute shorts per episode that likewise sought to maintain the look, core characters and sensibility of the original theatrical shorts. Similar to other reboot works like Scooby-Doo! Mystery Incorporated and The Looney Tunes Show, several episodes the new series brought Tom and Jerry into contemporary environments, telling new stories and relocating the characters to more fantastic worlds, from a medieval castle to a mad scientist's lab.</p>
+
+                        <p>In November 2014, a two-minute sketch was shown as part of the Children in Need telethon in the United Kingdom, the sketch was produced as a collaboration with Warner Bros.</p>
+
+                        <p>In May 2016, WB Kids began releasing excerpts from various Tom and Jerry works to the online platform YouTube. By January 2017, compilation videos of the Tom and Jerry franchise began to be released by WB Kids on the platform.</p>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </body>
+
+
+</html>
